@@ -15,7 +15,7 @@ pub fn main()
 	println!("Display: {}", compl);
 	println!("Debug: {:?}", compl);
 
-	let vv = List(vec![1,10,100]);
+	let vv = List(vec![1,5,100]);
 	println!("{}", vv);
 	println!("{:?}", vv);
 }

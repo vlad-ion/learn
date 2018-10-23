@@ -3,7 +3,7 @@
 pub fn main()
 {
 	println!("Hello Rusted World!");
-	println!("Some text {:?} and {} and {1}.", "gigel", "ionel");
+	println!("Some text {:?} and {} and {1}.", "Huf", "Puf");
 
 	println!("Custom display {}", TupleThing(5,0));
 	println!("Custom debug {:?}", TupleThing(5,0));

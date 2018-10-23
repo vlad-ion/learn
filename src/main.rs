@@ -8,7 +8,7 @@ pub fn main()
 	println!("Custom display {}", TupleThing(5,0));
 	println!("Custom debug {:?}", TupleThing(5,0));
 
-	println!("Custom display {}", PointThing{x:5.1,y:2.2});
+	println!("Custom display {}", PointThing{x:5.1111,y:2.2});
 	println!("Custom debug {:?}", PointThing{x:5.1,y:2.2});
 
 	let compl = Complex{real:3.3, imag:7.2};
